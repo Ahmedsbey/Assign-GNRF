@@ -3,13 +3,12 @@
     margin: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato,Arial, Helvetica, sans-serif;
 }
 
 nav {
     width: 75%;
     display: flex;
-    /* border-bottom: 1px solid #000000; */
     justify-content: space-evenly;
     align-items: center;
     position: sticky;
@@ -40,6 +39,8 @@ nav {
 .menu ul li a {
     font-size: 20px;
     color: rgb(1 79 128);
+    font-family: Lato;
+    font-weight: 400;
 }
 
 .menu ul li a:hover {
@@ -52,24 +53,23 @@ nav {
 }
 
 .donate-btn {
-    border-radius: 6px;
-    padding: 9px 10px 9px 10px;
+    border-radius: 8px;
+    padding: 6px 9px 8px 9px;
     position: absolute;
-    background: white;
+    background: transparent;
+    color: white;
     right: -24%;
     border: 2px solid rgb(255 255 255);
-    box-shadow: 0px 0px 9px 0px white;
+    
 }
 
 .donate-btn li a{
-    color: rgb(8 67 104);
+    color: rgb(255, 255, 255);
 }
 .background {
     background: url(Img/f.png);
     background-blend-mode: darken;
     background-size: cover;
-    /* backdrop-filter: blur(5px); 
-    color: rgb(0, 0, 0);  */
     display: flex;
     height: 100vh;
     position: relative;
@@ -89,6 +89,7 @@ nav {
 }
 
 .Paras h1 {
+    font-family: lato;
     top: 80px;
     font-size: 40px;
 }
@@ -99,6 +100,7 @@ nav {
     font-size: 30px;
     line-height: 40px;
     z-index: 1;
+
 }
 
 .paras-btn {
@@ -107,8 +109,8 @@ nav {
 
 .paras-btn button {
     background: #ffffff;
-    padding: 10px 13px 10px 13px;
-    border-radius: 14px;
+    padding: 8px 13px 10px 10px;
+    border-radius: 3px;
     border: 1px solid #084368;
     font-size: 20px;
     color: #084368;
@@ -155,4 +157,124 @@ nav {
     height: 48%;
     margin: 0px 23px 38px 0px;
     border-radius: 17px;
+}
+footer{
+    display: flex;
+    color: white;
+    background: #084368;
+}
+.footer-form{
+    width: 51%;
+}
+.footer-paras{
+    display: flex;
+    width: 50%;
+    margin: 0px 0px 10px 20px;
+}
+.second-sec{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-form form{
+    display: flex;
+    margin-top: 11px;
+    width: 100%;
+    flex-direction: column;
+}
+form p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+form button{
+    width: 25%;
+    padding: 8px 4px 8px 4px;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.footer-form form input{
+    margin: 0px 0px 15px 0px;
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
+}
+.f-heading{
+    line-height: 26px;
+    font-size: 18px;
+    margin: 9px 0px 9px 0px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 35px;
+}
+.para-f{
+    line-height: 26px;
+    font-size: 18px;
+}
+.mail{
+    line-height: 20px;
+}
+.links ul li{
+    margin: 0px 0px 15px 0px;
+    font-size: 18px;
+}
+.links ul li a{
+    color: white;
+}
+.social-icon{
+    width: 50%;
+    display: flex;
+    text-wrap: nowrap;
+    font-size: 22px;
+    margin-right: 50px;
+}
+.social-icon a{
+    /* width: 100%; */
+}
+.social-links{
+    display:flex;
+    align-items: center;
+}
+.social-links ul{
+    display: flex;
+}
+.social-links ul li{
+    width: 100%;
+}
+.social-icon img{
+    width: 100%;
+}
+.copy{
+    text-align: center;
+    padding: 9px 0px 9px 0px;
+    color: white;
+    border-top: 2px solid white;
+    font-weight: 500;
+    background: #084368;
+    font-size: 20px;
+}
+.connect{
+    width: 73%;
+}
+.links{
+    width: 25%;
+    margin-left: 70px;
+}
+.icons{
+    display: flex;
+}
+.icons p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons ul{
+    display: flex;
+}
+.icons ul li{
+    margin: 0px 9px 0px 9px;
 }
