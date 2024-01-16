@@ -271,6 +271,9 @@ form button{
 .icons ul li{
     margin: 0px 9px 0px 9px;
 }
+.icons img{
+    width: 85%;
+}
 .copy{
     text-align: center;
     padding: 9px 0px 9px 0px;
