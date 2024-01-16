@@ -27,10 +27,6 @@ nav {
     width: 100%;
 }
 
-.menu ul {
-    /* list-style-type: none; */
-}
-
 .menu ul li {
     float: left;
     margin: 0px 25px 0px 9px;
@@ -48,10 +44,6 @@ nav {
     color: black;
 }
 
-.menu ul li a:active {
-    background-color: #3dadf3;
-}
-
 .donate-btn {
     border-radius: 8px;
     padding: 6px 9px 8px 9px;
@@ -62,7 +54,6 @@ nav {
     border: 2px solid rgb(255 255 255);
     
 }
-
 .donate-btn li a{
     color: rgb(255, 255, 255);
 }
@@ -102,11 +93,6 @@ nav {
     z-index: 1;
 
 }
-
-.paras-btn {
-    /* width: 120px; */
-}
-
 .paras-btn button {
     background: #ffffff;
     padding: 8px 13px 10px 10px;
@@ -117,17 +103,7 @@ nav {
     cursor: pointer;
     margin-top: 36px;
 }
-
-.slide-img {
-    width: 50%;
-    height: 70%;
-}
-
-.slide-img img {
-    width: 90%;
-    height: 90%;
-}
-.back-remo{
+.back-remove{
     background-color: white;
     width: 227px;
     z-index: 0;
@@ -136,16 +112,65 @@ nav {
     top: 47%;
     left: 45%;
 }
-.gallery{
-    height: 90vh;
+.achievement{
+    display: flex;
+    justify-content: space-around;
+    margin: -35px 0px 55px 0px;
+}
+.boxes{
+    display: flex;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 7px;
+    padding: 20px;
+    background: #024677;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgb(26 117 180) -1px -4px 0px inset;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.depart{
+    text-align: center;
+}
+.depart h2{
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+.dep-box-container{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dep-box{
+    color: white;
+    border-radius: 7px;
+    box-shadow: inset #024677 -1px -1px 1px 1px;
+    padding: 4px 7px 8px 8px;
+    width: 24%;
+    margin: 18px 0px 6px 0px;
+    height: 381px;
+    background: #ffffff;
+    cursor: pointer;
+}
+.dep-box img{
+    width: 100%;
+    height: 91%;
+    border-radius: 5px;
+}
+.dep-box p{
+    position: relative;
+    color: black;
+    font-weight: 600;
+    font-size: 27px;
+    top: -3px;
 }
 .gallery-container{
     text-align: center;
+    margin-top: 60px;
 }
-.gallery-container h1{
+.gallery-h1 h1{
     font-size: 40px;
     margin-bottom: 14px;
 }
@@ -163,44 +188,13 @@ footer{
     color: white;
     background: #084368;
 }
-.footer-form{
-    width: 51%;
-}
 .footer-paras{
     display: flex;
     width: 50%;
     margin: 0px 0px 10px 20px;
 }
-.second-sec{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-.footer-form form{
-    display: flex;
-    margin-top: 11px;
-    width: 100%;
-    flex-direction: column;
-}
-form p{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-form button{
-    width: 25%;
-    padding: 8px 4px 8px 4px;
-    border-radius: 6px;
-    background: transparent;
-    color: white;
-    border: 2px solid white;
-}
-.footer-form form input{
-    margin: 0px 0px 15px 0px;
-    border-radius: 5px;
-    padding: 5px 0px 5px 0px;
+.connect{
+    width: 73%;
 }
 .f-heading{
     line-height: 26px;
@@ -219,6 +213,10 @@ form button{
 .mail{
     line-height: 20px;
 }
+.links{
+    width: 25%;
+    margin-left: 70px;
+}
 .links ul li{
     margin: 0px 0px 15px 0px;
     font-size: 18px;
@@ -226,44 +224,39 @@ form button{
 .links ul li a{
     color: white;
 }
-.social-icon{
-    width: 50%;
+.second-sec{
+    width: 40%;
     display: flex;
-    text-wrap: nowrap;
-    font-size: 22px;
-    margin-right: 50px;
-}
-.social-icon a{
-    /* width: 100%; */
-}
-.social-links{
-    display:flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
-.social-links ul{
+.footer-form{
+    width: 51%;
+}
+.footer-form form{
     display: flex;
-}
-.social-links ul li{
+    margin-top: 11px;
     width: 100%;
+    flex-direction: column;
 }
-.social-icon img{
-    width: 100%;
-}
-.copy{
+form p{
     text-align: center;
-    padding: 9px 0px 9px 0px;
-    color: white;
-    border-top: 2px solid white;
-    font-weight: 500;
-    background: #084368;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
-.connect{
-    width: 73%;
+.footer-form form input{
+    margin: 0px 0px 15px 0px;
+    border-radius: 5px;
+    padding: 5px 0px 5px 0px;
 }
-.links{
+form button{
     width: 25%;
-    margin-left: 70px;
+    padding: 8px 4px 8px 4px;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
 }
 .icons{
     display: flex;
@@ -277,4 +270,13 @@ form button{
 }
 .icons ul li{
     margin: 0px 9px 0px 9px;
+}
+.copy{
+    text-align: center;
+    padding: 9px 0px 9px 0px;
+    color: white;
+    border-top: 2px solid white;
+    font-weight: 500;
+    background: #084368;
+    font-size: 20px;
 }
