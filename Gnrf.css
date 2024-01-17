@@ -141,15 +141,15 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .dep-box{
     color: white;
     border-radius: 7px;
-    box-shadow: inset #024677 -1px -1px 1px 1px;
-    padding: 4px 7px 8px 8px;
+    box-shadow: #024677 -1px -1px 1px 1px;
+    padding: 18px 15px 18px 15px;
     width: 24%;
-    margin: 18px 0px 6px 0px;
+    margin: 23px 55px 6px 0px;
     height: 381px;
     background: #ffffff;
     cursor: pointer;
@@ -164,7 +164,10 @@ nav {
     color: black;
     font-weight: 600;
     font-size: 27px;
-    top: -3px;
+    top: 8px;
+}
+.dep-box3 p{
+    font-size: 22px;
 }
 .gallery-container{
     text-align: center;
