@@ -91,7 +91,7 @@ nav {
     font-size: 30px;
     line-height: 40px;
     z-index: 1;
-
+background: white;
 }
 .paras-btn button {
     background: #ffffff;
@@ -103,15 +103,15 @@ nav {
     cursor: pointer;
     margin-top: 36px;
 }
-.back-remove{
+/* .back-remove{
     background-color: white;
     width: 227px;
     z-index: 0;
     height: 49px;
     position: absolute;
-    top: 47%;
-    left: 45%;
-}
+    top: 48%;
+    left: 40%;
+} */
 .achievement{
     display: flex;
     justify-content: space-around;
@@ -150,7 +150,7 @@ nav {
     padding: 18px 15px 18px 15px;
     width: 24%;
     margin: 23px 55px 6px 0px;
-    height: 381px;
+    height: 340px;
     background: #ffffff;
     cursor: pointer;
 }
