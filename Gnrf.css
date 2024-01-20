@@ -46,13 +46,12 @@ nav {
 
 .donate-btn {
     border-radius: 8px;
-    padding: 6px 9px 8px 9px;
+    padding: 5px 11px 7px 11px;
     position: absolute;
     background: transparent;
     color: white;
-    right: -24%;
+    right: -15%;
     border: 2px solid rgb(255 255 255);
-    
 }
 .donate-btn li a{
     color: rgb(255, 255, 255);
@@ -78,13 +77,11 @@ nav {
     margin-top: 61px;
    
 }
-
 .Paras h1 {
     font-family: lato;
     top: 80px;
     font-size: 40px;
 }
-
 .Paras p {
     margin-top: 10px;
     width: 58%;
@@ -103,15 +100,6 @@ background: white;
     cursor: pointer;
     margin-top: 36px;
 }
-/* .back-remove{
-    background-color: white;
-    width: 227px;
-    z-index: 0;
-    height: 49px;
-    position: absolute;
-    top: 48%;
-    left: 40%;
-} */
 .achievement{
     display: flex;
     justify-content: space-around;
@@ -284,5 +272,5 @@ form button{
     border-top: 2px solid white;
     font-weight: 500;
     background: #084368;
-    font-size: 20px;
+    font-size: 24px;
 }
